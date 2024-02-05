@@ -16,6 +16,7 @@ export default function App() {
 
   return (
     <div className="App">
+      {/* passing down functions(hooks) as prop */}
       <Folder handleInsertNode={handleInsertNode} explorer={explorerData} />
     </div>
   );

@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+// Taking props without destructuring
 function Folder({ handleInsertNode = () => {}, explorer }) {
   const [expand, setExpand] = useState(false);
   const [showInput, setShowInput] = useState({
